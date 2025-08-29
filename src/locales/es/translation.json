@@ -1,0 +1,151 @@
+{
+  "text": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "label": "Etiqueta",
+    "input": "Ingrese texto",
+    "alarm": "Alarma",
+    "cancel": "Cancelar",
+    "accessibility": "Análisis de Accesibilidad"
+  },
+  "context": {
+    "render": "Selecciona una vista para comenzar",
+    "view": "Información",
+    "picker": "Seleccionador",
+    "tags": {
+      "lightness": "Luminosidad",
+      "saturation": "Saturación",
+      "contrastWhite": "Contraste con blanco",
+      "contrastBlack": "Contraste con negro",
+      "invalidColor": "Color Inválido",
+      "opacity": "Opacidad",
+      "contrastRatio": "Radio de Contraste (WCAG)",
+      "statusWCAG": "Estatus (WCAG 2.1)",
+      "colorDifference": "Diferencia de Color (Delta E)",
+      "contentSoon": "Próximamente más contenido...",
+      "colorConversions": "Conversiones de Colores",
+      "colorProperties": "Propiedades",
+      "contrastChecks": "Contrastes",
+      "visualImpact": "Impacto visual",
+      "colorVisibility": "Visibilidad del color primario",
+      "colorCheckExcellent": "Bueno",
+      "colorCheckModerate": "Moderado",
+      "colorCheckPoor": "Malo"
+    },
+    "palette": {
+      "generatingPalettes": "Generando Paletas...",
+      "colorScale": "Escala de Color",
+      "complementaryPalette": "Paleta complementaria",
+      "analogPalette": "Paleta Análoga",
+      "triadicPalette": "Paleta Triádica"
+    },
+    "result": "Resultado",
+    "invalidFormat": "¡Formato Inválido!",
+    "unknownColor": "Color desconocido",
+    "copyHEX": "Copiar código HEX",
+    "copyRGBA": "Copiar código RGBA"
+  },
+  "toast": {
+    "preferencesSaved": "¡Preferencias guardadas con éxito!"
+  },
+  "navbarTitle": {
+    "viewArtist": "Artista",
+    "viewDesigner": "Diseñador",
+    "viewDeveloper": "Desarrollador",
+    "menu": "Menú",
+    "settings": "Configuración",
+    "helpCenter": "Centro de Ayuda",
+    "documentation": "Documentación",
+    "mode": {
+      "light": "Modo Claro",
+      "dark": "Modo Oscuro"
+    }
+  },
+  "settingsTitle": "Configuración",
+  "viewsTitle": "Vista de:",
+  "viewsTitleMD": "Vista:",
+  "section": {
+    "favoriteColors": "Colores Destacados",
+    "language": "Idioma",
+    "generalSettings": "Configuración General"
+  },
+  "tooltips":{
+    "colorConversions":{
+    "description1": "Representaciones del mismo color en diferentes espacios cromáticos. ",
+    "description2": "Útil para desarrollo web, diseño gráfico e impresión.",
+    "HEX": "Para web/CSS",
+    "RGBA": "Con transparencia",
+    "HSL": "Tono, saturación, luminosidad",
+    "CMYK": "Para impresión",
+    "CIELAB": "Perceptualmente uniforme"
+  },
+    "colorProperties":{
+    "description1": "Características técnicas que definen cómo se percibe el color. ",
+    "description2": "Valores más altos = colores más vivos y brillantes. ",
+    "text1": "Brillo percibido (0-1)",
+    "text2": "Intensidad del color (%)"
+    },
+    "contrastChecks": {
+      "description1": "Ratios de contraste según estándares WCAG para accesibilidad web.",
+      "description2": "Mayor ratio = mejor legibilidad"
+    }
+  },
+  "toggle": {
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "checkbox": {
+    "footer": "Habilitar pie del sitio",
+    "contrastChecker": "Habilitar contrastador"
+  },
+  "button": {
+    "savePreferences": "Guardar Preferencias",
+    "clean": "Limpiar"
+  },
+  "message": {
+    "preferencesSaved": "¡Preferencias guardadas con éxito!"
+  },
+  "content": {
+    "title": "Guía de Contraste, Accesibilidad y Colores",
+    "contrast": {
+      "title": "Accesibilidad (WCAG)",
+      "description1": "El Web Content Accessibility Guidelines (WCAG) establece pautas para hacer el contenido web accesible para personas con discapacidades. Pigmenta permite probar ambos escenarios para garantizar el cumplimiento de los estándares de accesibilidad.",
+      "description2": "Un buen ratio de contraste es crucial para la legibilidad. El nivel AA requiere un contraste de 4.5:1 para texto normal y 3:1 para texto grande. El nivel AAA, el más estricto, requiere 7:1 y 4.5:1 respectivamente. Cuando el contraste es inferior a 3:1, Pigmenta lo marca como ‘Falla’, indicando que el color no es apto ni siquiera para texto grande según WCAG 2.1. Se recomienda ajustar la luminosidad o saturación para mejorar la accesibilidad."
+    },
+    "opacity": {
+      "title": "Opacidad (Transparencia)",
+      "description1": "La opacidad define el nivel de transparencia de un color. Un valor de 100% (o 1 en CSS) significa que el color es completamente opaco, mientras que un valor de 0% (o 0) lo hace completamente transparente.",
+      "description2": "Se representa a menudo en el modelo de color RGBA (Red, Green, Blue, Alpha), donde 'Alpha' es el canal de opacidad. Es fundamental para crear efectos visuales como superposiciones o fondos semitransparentes en el diseño UI."
+    },
+    "deltaE": {
+      "title": "Diferencia de Color (Delta E)",
+      "description1": "Delta E (∆E) es una métrica que cuantifica la diferencia entre dos colores tal como los percibe el ojo humano. Un valor bajo (menor a 1) indica que la diferencia es imperceptible, mientras que un valor alto (mayor a 5) indica una diferencia notable.",
+      "description2": "Es una herramienta útil para asegurar que los colores de tu marca se mantengan consistentes en diferentes medios o dispositivos. En Pigmenta: Un Delta E cercano a 100 indica una diferencia máxima entre dos colores, como ocurre entre blanco y negro. Este valor es útil para validar legibilidad extrema, aunque en la práctica, valores más bajos también pueden ser suficientes si cumplen con los requisitos de contraste de las WCAG."
+    },
+    "uxColors": {
+      "title": "Colores para tu UX/UI",
+      "description1": "La elección de colores impacta directamente en la experiencia de usuario. Colores cálidos (rojo, naranja) evocan energía y atención, mientras que los fríos (azul, verde) transmiten calma y confianza. Es vital usar colores con propósito y mantener una paleta coherente."
+    },
+    "articles": {
+      "title": "Artículos de Referencia",
+      "contrastTitle": "Guía de contraste mínimo de WCAG 2.1",
+      "contrastDescription": "Entiende los estándares de accesibilidad para el contraste de colores.",
+      "wcagTitle": "WCAG 2.2 - Contraste Mínimo",
+      "wcagDescription": "Pautas oficiales del W3C sobre los requisitos de contraste para la accesibilidad web.",
+      "mdnContrastTitle": "MDN - Contraste de color en accesibilidad",
+      "mdnContrastDescription": "Documentación técnica sobre cómo implementar un contraste accesible.",
+      "opacityTitle": "Opacidad en CSS (MDN Web Docs)",
+      "opacityDescription": "Documentación oficial sobre la propiedad de opacidad de CSS.",
+      "cssOpacityTitle": "CSS-Tricks - Guía completa de opacidad",
+      "cssOpacityDescription": "Tutorial completo sobre el uso de la opacidad en CSS y mejores prácticas.",
+      "deltaETitle": "Diferencia de color - Wikipedia",
+      "deltaEDescription": "Una explicación técnica de la métrica Delta E.",
+      "deltaECalculatorTitle": "Calculadora de Delta E - ColorMine",
+      "deltaECalculatorDescription": "Herramienta interactiva para calcular las diferencias de color Delta E.",
+      "colorPrinciplesTitle": "Principios para el uso del color en UI - Interaction Found.",
+      "colorPrinciplesDescription": "Principios fundamentales para aplicar el color de forma efectiva en interfaces.",
+      "uxGuideTitle": "Guía completa de color en UX/UI - Supercharge Design",
+      "uxGuideDescription": "Tutorial exhaustivo sobre el uso efectivo del color en el diseño de interfaces."
+    }
+  }
+}

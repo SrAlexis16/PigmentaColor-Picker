@@ -1,0 +1,151 @@
+{
+  "text": {
+    "home": "Home",
+    "about": "About",
+    "label": "Label",
+    "input": "Enter text",
+    "alarm": "Alarm",
+    "cancel": "Cancel",
+    "accessibility": "Accessibility Analysis"
+  },
+  "context": {
+    "render": "Select a view to get started",
+    "view": "Information",
+    "picker": "Picker",
+    "tags": {
+      "lightness": "Lightness",
+      "saturation": "Saturation",
+      "contrastWhite": "Contrast with white",
+      "contrastBlack": "Contrast with black",
+      "invalidColor": "Invalid Color",
+      "opacity": "Opacity",
+      "contrastRatio": "Contrast ratio (WCAG)",
+      "statusWCAG": "Status (WCAG 2.1)",
+      "colorDifference": "Color difference (Delta E)",
+      "contentSoon": "More content coming soon...",
+      "colorConversions": "Color Conversions",
+      "colorProperties": "Properties",
+      "contrastChecks": "Contrastes",
+      "visualImpact": "Impact visual",
+      "colorVisibility": "Primary Color visual impact",
+      "colorCheckExcellent": "Good",
+      "colorCheckModerate": "Moderate",
+      "colorCheckPoor": "Poor"
+    },
+    "palette": {
+      "generatingPalettes": "Generating palettes...",
+      "colorScale": "Color Scale",
+      "complementaryPalette": "Complementary Palette",
+      "analogPalette": "Analog Palette",
+      "triadicPalette": "Triadic Palette"
+    },
+    "result": "Result",
+    "invalidFormat": "Invalid Format!",
+    "unknownColor": "Unknown Color",
+    "copyHEX": "Copy HEX",
+    "copyRGBA": "Copy RGBA"
+  },
+  "toast": {
+    "preferencesSaved": "Preferences saved successfully!"
+  },
+  "navbarTitle": {
+    "viewArtist": "Artist",
+    "viewDesigner": "Designer",
+    "viewDeveloper": "Developer",
+    "menu": "Menu",
+    "settings": "Settings",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "mode": {
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    }
+  },
+  "settingsTitle": "Settings",
+  "viewsTitle": "Mode:",
+  "viewsTitleMD": "Mode:",
+  "section": {
+    "favoriteColors": "Favorite Colors",
+    "language": "Language",
+    "generalSettings": "General Settings"
+  },
+  "tooltips": {
+  "colorConversions": {
+    "description1": "Representations of the same color in different color spaces.",
+    "description2": "Useful for web development, graphic design, and printing.",
+    "HEX": "For web/CSS",
+    "RGBA": "With transparency",
+    "HSL": "Hue, saturation, lightness",
+    "CMYK": "For printing",
+    "CIELAB": "Perceptually uniform"
+  },
+  "colorProperties": {
+    "description1": "Technical characteristics that define how a color is perceived.",
+    "description2": "Higher values = brighter and more vivid colors.",
+    "text1": "Perceived brightness (0–1)",
+    "text2": "Color intensity (%)"
+  },
+  "contrastChecks": {
+    "description1": "Contrast ratios based on WCAG standards for web accessibility.",
+    "description2": "Higher ratio = better legibility"
+  }
+},
+  "toggle": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "checkbox": {
+    "footer": "Enable footer",
+    "contrastChecker": "Enable contrast checker"
+  },
+  "button": {
+    "savePreferences": "Save Preferences",
+    "clean": "Clean"
+  },
+  "message": {
+    "preferencesSaved": "Preferences saved successfully!"
+  },
+  "content": {
+    "title": "Guide to Contrast, Accessibility, and Colors",
+    "contrast": {
+      "title": "Accessibility (WCAG)",
+      "description1": "The Web Content Accessibility Guidelines (WCAG) set standards to make web content accessible for people with disabilities. Contrast ratios vary depending on the background color. Pigmenta allows testing against both light and dark backgrounds to ensure compliance with WCAG standards.",
+      "description2": "A good contrast ratio is crucial for readability. Level AA requires a 4.5:1 contrast for normal text and 3:1 for large text. Level AAA, the most stringent, requires 7:1 and 4.5:1, respectively. When the contrast ratio is below 3:1, Pigmenta marks it as ‘Fail’, indicating that the color is not suitable even for large text according to WCAG 2.1. It is recommended to adjust brightness or saturation to improve accessibility."
+    },
+    "opacity": {
+      "title": "Opacity (Transparency)",
+      "description1": "Opacity defines the level of transparency of a color. A value of 100% (or 1 in CSS) means the color is completely opaque, while a value of 0% (or 0) makes it completely transparent.",
+      "description2": "It is often represented in the RGBA color model (Red, Green, Blue, Alpha), where 'Alpha' is the opacity channel. It's fundamental for creating visual effects like overlays or semi-transparent backgrounds in UI design."
+    },
+    "deltaE": {
+      "title": "Color Difference (Delta E)",
+      "description1": "Delta E (∆E) is a metric that quantifies the difference between two colors as perceived by the human eye. A low value (less than 1) indicates the difference is imperceptible, while a high value (greater than 5) indicates a noticeable difference.",
+      "description2": "It's a useful tool for ensuring that your brand's colors remain consistent across different media or devices."
+    },
+    "uxColors": {
+      "title": "Colors for Your UX/UI",
+      "description1": "The choice of colors directly impacts the user experience. Warm colors (red, orange) evoke energy and attention, while cool colors (blue, green) convey calmness and trust. It's vital to use colors with purpose and maintain a coherent palette."
+    },
+    "articles": {
+      "title": "Reference Articles",
+      "contrastTitle": "WCAG 2.1 Minimum Contrast Guide",
+      "contrastDescription": "Understand the accessibility standards for color contrast.",
+      "wcagTitle": "WCAG 2.2 - Minimum Contrast",
+      "wcagDescription": "Official W3C guidelines on contrast requirements for web accessibility.",
+      "mdnContrastTitle": "MDN - Color Contrast in Accessibility",
+      "mdnContrastDescription": "Technical documentation on implementing accessible contrast.",
+      "opacityTitle": "Opacity in CSS (MDN Web Docs)",
+      "opacityDescription": "Official documentation on the CSS opacity property.",
+      "cssOpacityTitle": "CSS-Tricks - Complete Opacity Guide",
+      "cssOpacityDescription": "Complete tutorial on using opacity in CSS and best practices.",
+      "deltaETitle": "Color difference - Wikipedia",
+      "deltaEDescription": "A technical explanation of the Delta E metric.",
+      "deltaECalculatorTitle": "Delta E Calculator - ColorMine",
+      "deltaECalculatorDescription": "Interactive tool to calculate Delta E color differences.",
+      "colorPrinciplesTitle": "Principles for Color Usage in UI - Interaction Found.",
+      "colorPrinciplesDescription": "Fundamental principles for applying color effectively in interfaces.",
+      "uxGuideTitle": "Complete Color Guide in UX/UI - Supercharge Design",
+      "uxGuideDescription": "Comprehensive tutorial on effective color use in interface design."
+    }
+  }
+}
